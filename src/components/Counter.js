@@ -14,16 +14,6 @@ class Counter extends Component {
   };
 
   render() {
-    const handleIncrement = e => {
-      console.log("handle increment");
-      e.preventDefault();
-      increment();
-    };
-    const handleDecrement = e => {
-      console.log("handle decrement");
-      e.preventDefault();
-      decrement();
-    };
     // Fill in the two button onClick methods
     // Upon clicking these buttons, the count
     // should decrement or increment accordingly
